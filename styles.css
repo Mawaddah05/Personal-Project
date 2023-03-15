@@ -1,0 +1,51 @@
+body{
+    display: grid; 
+    
+}
+.one{
+    height: 400px;
+    width: 100%;
+    background-color: lightcoral;
+    background-image: url(/Cuties/cat\ on\ couch.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   color:rgb(255, 246, 234);
+   /* text-align: center; */
+   align-items: center;
+}
+.shop{
+    position: relative;
+    left: 20px;
+    font-style: oblique;
+    font-size: 22px;
+}
+.friends{
+    font-size: 80px;
+    position: relative;
+    text-align: center;
+}
+.guide{
+    text-align: center;
+    padding-top: 0px;
+    position: relative;
+    top:-50px;
+    font-size: 18px;
+    font-weight: 100;
+}
+.two{
+    display: flex;
+    height: 400px;
+
+}
+.pic1{
+    width:;
+    height: 300px;
+}
+.green{
+    height: 500px;
+    /* width: 400px */
+}
+.text1{
+
+}
