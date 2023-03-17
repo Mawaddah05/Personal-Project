@@ -1,10 +1,15 @@
+*{
+    box-sizing: border-box;
+}
+
 body{
     display: grid; 
+    
     
 }
 .one{
     height: 400px;
-    width: 100%;
+    /* width: 100%; */
     background-color: lightcoral;
     background-image: url(/Cuties/cat\ on\ couch.jpg);
     background-size: cover;
@@ -39,7 +44,7 @@ body{
 
 }
 .pic1{
-    width:;
+    /* width:; */
     height: 300px;
 }
 .green{
@@ -47,5 +52,62 @@ body{
     /* width: 400px */
 }
 .text1{
+
+}
+.textbox{
+   
+  border-radius: 15px;
+  /* background-color: aqua; */
+  margin-top: 45px;
+  margin-left: 30px;
+  margin-right: 45px;
+
+}
+.line1{
+    width: 60px;
+    height: 4px;
+    background-color: green;
+    position: relative;
+    top:20px;
+    border-radius: 2px;
+
+}
+.about{
+    text-align: center;
+    /* display: inline; */
+    color: green;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 17px;
+    position: relative;
+    top:-10px;
+    right:60px
+}
+.breeds{
+    text-align: left;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+
+}
+.lorem1{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    font-weight: 350;
+}
+.checkbox1{
+    border: 3px solid green;
+    width: 120px;
+    height: 40px;
+    align-items: center;
+    text-align: center;
+    /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
+    font-size: 14px;
+    font-weight: 100;
+
+}
+.more{
+    position: relative;
+    top:-10px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
 
 }
