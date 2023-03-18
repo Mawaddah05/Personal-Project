@@ -3,13 +3,16 @@
 }
 
 body{
-    display: grid; 
-    
+    display: flex; 
+    justify-content: center; 
+}
+main{
+    width: 100%;
+    overflow: hidden;
     
 }
 .one{
     height: 500px;
-    /* width: 100%; */
     background-color: lightcoral;
     background-image: url(/Cuties/cat\ on\ couch.jpg);
     background-size: cover;
@@ -22,6 +25,7 @@ body{
 .shop{
     position: relative;
     left: 20px;
+    top:10px;
     font-style: oblique;
     font-size: 22px;
 }
@@ -208,4 +212,34 @@ header{
     text-align: center;
     font-size: 14px;
     font-weight: 100;
+}
+.five{
+    display:flex;
+    justify-content:center;
+
+}
+.pics{
+    height: 210px;
+}
+.textbox4{
+    margin: 100px 100px;
+    text-align: center;
+    align-items: center;
+}
+.portfolio{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 200; 
+    color: darksalmon;
+    font-size: 18px;
+}
+.nomination{
+    text-align: center;
+}
+.seven{
+    margin: 0px 100px;
+}
+.port{
+    height: 250px;
+    margin-left: 10px;
+    margin-bottom: 10px;
 }
