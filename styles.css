@@ -8,7 +8,7 @@ body{
     
 }
 .one{
-    height: 400px;
+    height: 500px;
     /* width: 100%; */
     background-color: lightcoral;
     background-image: url(/Cuties/cat\ on\ couch.jpg);
@@ -40,16 +40,17 @@ body{
 }
 .two{
     display: flex;
-    height: 400px;
+    height: 500px;
 
 }
 .pic1{
     /* width:; */
-    height: 300px;
+    height: 400px;
 }
 .green{
     height: 500px;
-    /* width: 400px */
+    width: 500px;
+
 }
 .text1{
 
@@ -59,39 +60,44 @@ body{
   border-radius: 15px;
   /* background-color: aqua; */
   margin-top: 45px;
-  margin-left: 30px;
+  margin-left: 50px;
   margin-right: 45px;
 
+}
+.lineabout{
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
 }
 .line1{
     width: 60px;
     height: 4px;
     background-color: green;
     position: relative;
-    top:20px;
+    top:27px;
     border-radius: 2px;
 
 }
 .about{
-    text-align: center;
-    /* display: inline; */
+    /* text-align: center; */
     color: green;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 17px;
     position: relative;
-    top:-10px;
-    right:60px
 }
-.breeds{
+header{
     text-align: left;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 50px;
+    margin-right: 20px;
 
 }
 .lorem1{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 16px;
     font-weight: 350;
+    margin-right: 50px;
 }
 .checkbox1{
     border: 3px solid green;
@@ -99,7 +105,7 @@ body{
     height: 40px;
     align-items: center;
     text-align: center;
-    /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 14px;
     font-weight: 100;
 
@@ -110,4 +116,96 @@ body{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 600;
 
+}
+.three{
+    display: flex;
+    height: 500px; 
+}
+.textbox2{
+    width: 500px;
+}
+.lineservices{
+    display: flex;
+    width: 220px;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-left: 60px;
+    margin-right: 50px;
+}
+.line2{
+    width: 60px;
+    height: 4px;
+    background-color: burlywood; 
+    position: relative;
+    top: 27px;
+    border-radius: 2px;
+}
+.services{
+    color: burlywood;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 17px;
+    position: relative;
+}
+.supplies{
+    margin-left: 60px;
+    margin-right: 50px;
+}
+.winter{
+    height: 500px;
+    position: relative;
+    /* left:17px; */
+    width: 500px;
+}
+.lorem2{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    font-weight: 350;
+    padding-right: 50px;
+    padding-left: 60px;
+}
+.checkbox2{
+    border: 3px solid burlywood;
+    width: 120px;
+    height: 40px;
+    align-items: center;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 100;
+    margin-left: 60px;
+}
+.four{
+    display: flex;
+    height: 500px;
+}
+.girl{
+    height: 500px;
+    margin-top: 0px;
+}
+.lineknow{
+    display: flex;
+    justify-content: space-between;
+    width: 250px;
+}
+.line3{
+    width: 60px;
+    height: 4px;
+    background-color:coral;
+    position: relative;
+    top:27px;
+    border-radius: 2px;
+}
+.know{
+    color: coral;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 17px;
+    position: relative;
+}
+.checkbox3{
+    border: 3px solid coral;
+    width: 120px;
+    height: 40px;
+    align-items: center;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 100;
 }
