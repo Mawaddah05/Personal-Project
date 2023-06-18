@@ -304,7 +304,7 @@ textarea{
     background-color:rgba(0,0,0,0);
     border: 3px white solid;
     color: white; 
-    border-radius: 3px;
+    border-radius: 3px solid;
 }
 button{
     margin: 0 auto;
@@ -316,7 +316,13 @@ button{
     font-weight: 650;
     color:rgb(253, 178, 39);
     border: none;
-    border-radius: 1px;
+    border-radius: 1px solid;
+}
+button:hover{
+    background-color:rgb(253, 178, 39);
+    color: white;
+    cursor: pointer;
+
 }
 footer{
     height:200px;
@@ -366,11 +372,13 @@ a{
         width: 100%
     }
     .two, .four{
-        display: grid;
+        display: flex;
+        flex-direction: column;
     }
     .three{
-        display: grid;
-        margin-top: 400px;
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 700px;
     }
     .pic1, .pic2, .pic3{
         width: 100%;
@@ -382,18 +390,21 @@ a{
         width: 100%;
     }
     .four{
-        margin-top: 370px;
+        margin-top: 70px;
     }
     .five{
         margin-top: 420px;
+        margin-right: 50px;
+        margin-left: 50px;
     }
     .cats{
         display: grid;
         width: 100%;
+
     }
     .pics{
         width: 100%;
-        height: auto;
+        height: 100;
     }
     .seven{
         margin: 0px 0px;
